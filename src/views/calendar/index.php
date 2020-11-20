@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use modava\calendar\CalendarModule;
 
-$this->title = CalendarModule::t('backend', 'Calendar');
+$this->title = Yii::t('backend', 'Calendar');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <!-- Container -->
